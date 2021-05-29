@@ -1,0 +1,27 @@
+body {
+  font: 'Raleway', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  top: 15%;
+  background: linear-gradient(to right, red, yellow);
+}
+
+h3 {
+  font-size: 0.7em;
+  text-transform: lowercase;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.title {
+  font-family: 'Limelight', cursive;
+  color: black;
+  text-align: center;
+}
+
+.title-event {
+  color: red;
+}

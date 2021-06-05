@@ -19,7 +19,30 @@ button {
 .title {
   font-family: 'Limelight', cursive;
   color: black;
-  text-align: center;
+  text-align: left;
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    margin-right: 0%;
+    width: 100%;
+  }
+  to {
+    margin-left: 100%;
+    margin-right: 0%;
+    width: 100%;
+  }
+  50% {
+    margin-left: 0%;
+    margin-right: 100%;
+    width: 100%;
+  }
+
 }
 
 .title-event {
